@@ -179,12 +179,13 @@ a.active span:before {
     color: #fff;
     font-family: 'Ubuntu-Medium';
 }
+
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     position: absolute;
     z-index: 1;
     height: 3px;
-    width: 70px;
+    width: 60px;
     border: 0;
     background: #898989;
     top: 50%;

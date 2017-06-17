@@ -72,9 +72,10 @@ a:hover hr{
     display: -o-flex;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 89%;
-    margin: auto;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-50%);
+    top: 50%;
     text-align: center;
 }
 
@@ -110,6 +111,7 @@ a:hover hr{
     color: #000;
     letter-spacing: 40px;
     position: relative;
+    line-height: 140px;
     opacity: .7;
 }
 .hederCaption :nth-child(3):before {
@@ -123,6 +125,7 @@ a:hover hr{
     letter-spacing: 60px;
     font-size: .7em;
     opacity: .9;
+    line-height: 100px;
     position: absolute;
 }
 
@@ -170,6 +173,20 @@ a:hover hr{
     flex-direction: column;
 }
 
+.wrapper_BlockItems {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
 .blockItem :first-child{
     color: #f4cf8b;
     font-size: 1.8em;
@@ -211,6 +228,7 @@ a:hover hr{
 
 .wrap_all {
     margin: 40px;
+    height: 90%;
     background: #fff;
 }
 
@@ -220,10 +238,13 @@ a:hover hr{
     font-family: AireRomanPro;
     font-size: 5em;
     letter-spacing: 20px;
-    line-height: 90px;
+    line-height: 90px;    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.header_sectionThree {margin: 10px 20px 0;width: 64%;justify-content: space-between;}
+.header_sectionThree {margin: 10px 48px;width: 64%;justify-content: space-between;}
 
 .activeBorderThree:before {
     content: 'Команда';
@@ -283,7 +304,7 @@ a:hover hr{
 
 .wrapper__slideFo {
     max-width: 930px;
-    margin: auto;
+    margin: 2% auto 0;
 }
 
 .sectionFour {
@@ -299,7 +320,7 @@ a:hover hr{
     display: -o-flex;
     display: flex;
     justify-content: center;
-    margin: 100px auto 0;
+    margin: 10% auto 0;
 }
 
 .sectionFourtextCenter p {
@@ -310,6 +331,9 @@ a:hover hr{
     color: #fff;
     letter-spacing: 25px;
     opacity: .8;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .activeBorderFour:before {
@@ -325,18 +349,19 @@ a:hover hr{
 }
 
 .sectionFive {
-    padding: 40px;
     background: #000;
 }
 
 .wrapSecFive {
     padding: 30px 0;
+    margin: 40px;
+    height: 90%;
     background: #181818;
 }
 
 .wrapper_sectionFive {
     width: 63%;
-    margin: 0 30px 0;
+    margin: 0 47px 0;
     justify-content: space-between;
 }
 
@@ -355,7 +380,7 @@ a:hover hr{
 .textContainerFive p{
     width: 350px;
     font-family: AireRomanPro;
-    font-size: 5.2em;
+    font-size: 5em;
     line-height: 90px;
     color: #f4cf8b;
     letter-spacing: 20px;
@@ -446,16 +471,110 @@ a:hover hr{
     left: -45px;
 }
 
+.contact_t {
+    font-family: AireRomanPro;
+    font-size: 5em;
+    letter-spacing: 20px;
+    line-height: 90px;
+}
+
+.header_sectionSeven {
+    margin: 40px;
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 64%;
+}
+
+.sectionSeven {
+    background: #ededed;
+}
+
+.wrap_containerMap {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 60px auto 0;
+}
+
+.borderItemLeft, .borderItemRight {
+    border: 2px solid #cccccc;
+    font-family: Ubuntu-Bold;
+    width: 190px;
+    height: 190px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    position: relative;
+    letter-spacing: .3px;
+    align-self: center;
+}
+
+.borderItemLeft p, .borderItemRight p{
+    width: 220px;
+    line-height: 22px;
+    align-self: center;
+    position: absolute;
+    left: 50%;
+}
+
+.wrapSectionSeven {
+    background: #fff;
+    margin: 40px;
+    height: 90%;
+}
+
+.mainMap img {
+    transition: .5s;
+    cursor: pointer;
+}.mainMap img:hover {
+    opacity: .97;
+}
 
 
-
-
-
-
-
-
-
-
+@media only screen  and (min-width: 1910px) {
+    .sectionFourtextCenter p {
+        font-size: 8em;    
+        width: 510px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 110px;
+        letter-spacing: 25px;
+        color: #fff;
+    }
+    .textContainerFive p {
+        font-size: 7em;
+        width: 435px;
+        line-height: 100px;
+    }
+    .wrapper__ItemsIMG {
+        width: 74%;
+    }
+    .itemOneBG img:first-child{
+        width: 250px;
+        height: 250px;
+    }
+    .itemOneBG img:nth-child(2){
+        width: 250px;
+        height: 250px;
+    }
+    .itemOneBG img:nth-child(3){
+        width: 700px;
+        right: -250px;
+    }
+    .itemTwoBG img:first-child {
+        width: 250px;
+    }
+    .itemTwoBG img:last-child {
+        width: 700px;
+    }
+}
 
 
 
