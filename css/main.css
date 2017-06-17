@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionOne {
+    background-image: url(../img/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper__header, .wrapper_sectionTwo {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    width: 89%;
+    margin: 70px auto 0;
+}
+
+.menu, .menuTwo, .menuThree {
+    color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+.menu a:last-child {
+    z-index: 1;
+}
+
+.activeBorder, .activeBorderTwo, .activeBorderThree, .activeBorderFour, .activeBorderFive, .activeBorderSix{background: #fff;padding: 1.5px 0;width: 150px;margin: 8px 0;}
+
+.activeBorderThree {
+    background: #000;
+}
+
+.activeBorder:before {
+    content: 'Главная';
+    font-family: 'Ubuntu-Medium';
+    position: absolute;
+    color: #fff;
+    top: -18px;
+    transform: translate(-50%);
+    left: 50%;
+}a {cursor: pointer;}
+
+hr {
+    width: 70px;
+    border: none;
+    height: 3px;
+    background: #898989;
+    margin: 7px 0;
+    transition: .5s;
+}
+
+a:hover hr{
+    width: 150px;
+}
+
+.hederCaption {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 89%;
+    margin: auto;
+    text-align: center;
+}
+
+.hederCaption :first-child {
+    font-family: 'AireRomanPro';
+    font-size: 7.5em;
+    color: #f4cf8b;
+    opacity: .7;
+    letter-spacing: 45px;
+    position: relative;
+}.hederCaption :first-child:before {
+    content: '6040';
+    color: #000;
+    top: -30px;
+    right: 0;
+    left: -20px;
+    letter-spacing: 30px;
+    font-size: 1.3em;
+    position: absolute;
+}
+
+.hederCaption :nth-child(2) {
+    font-family: Ubuntu-Bold;
+    color: #acabab;
+    letter-spacing: .4px;
+    opacity: .7;
+}
+
+.hederCaption :nth-child(3) {
+    text-transform: uppercase;
+    font-family: 'AireRomanPro';
+    font-size: 9.5em;
+    color: #000;
+    letter-spacing: 40px;
+    position: relative;
+    opacity: .7;
+}
+.hederCaption :nth-child(3):before {
+    content: 'vaperoom';
+    top: 40px;
+    left: 20px;
+    opacity: 1 !important;
+    color: #f4cf8b;
+    right: 0;
+    bottom: 0;
+    letter-spacing: 60px;
+    font-size: .7em;
+    opacity: .9;
+    position: absolute;
+}
+
+.sectionTwo {
+    background-image: url(../img/bg_section2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activeBorderTwo:before {
+    content: 'Преимущества';
+    font-family: 'Ubuntu-Medium';
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    transform: translate(-50%);
+    left: 50%;}
+
+.marB {
+    margin-bottom: 20px;
+}
+
+.wrapper_blockItemOne {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+}
+
+.blockItem {
+    font-family: Ubuntu-Bold;
+    border: 12px solid rgba(172,171,171, 0.7);
+    height: 10em;
+    width: 10em;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.blockItem :first-child{
+    color: #f4cf8b;
+    font-size: 1.8em;
+    margin: 10px 0 5px 12px;
+    letter-spacing: .5px;
+}.blockItem :last-child {
+    color: #fff;
+    opacity: .8;
+    position: absolute;
+    left: 45px;
+    letter-spacing: .1px;
+    top: 30%;
+}.barmanThree {width: 140px;}
+
+.bestwater {
+    width: 170px;
+}
+
+.beetwen-textSectionTwo {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 70px auto 110px;
+    width: 89%;
+    justify-content: center;
+    font-family: AireRomanPro;
+    font-size: 6em;
+    color: #fff;
+    opacity: .8;
+    letter-spacing: 30px;
+    
+}.beetwen-textSectionTwo p {line-height: 0;}.barmanOne {width: 100%;}
+
+.sectionThree {
+    background: #ededed;
+}
+
+.wrap_all {
+    margin: 40px;
+    background: #fff;
+}
+
+.wrapper__all {
+    padding: 10px 0;
+}.time{
+    font-family: AireRomanPro;
+    font-size: 5em;
+    letter-spacing: 20px;
+    line-height: 90px;
+}
+
+.header_sectionThree {margin: 10px 20px 0;width: 64%;justify-content: space-between;}
+
+.activeBorderThree:before {
+    content: 'Команда';
+    font-family: 'Ubuntu-Medium';
+    position: absolute;
+    color: #000;
+    top: 40px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.slick-btn {
+    font-size: 1em !important;
+    font-family: Ubuntu-Medium;
+    color: #000 !important;
+}
+
+.sl_left {
+    margin-right: 20px;
+}.sl_right {
+    margin-left: 20px;    
+}
+
+.sl_image {
+    background-image: url(../img/bg_section3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 930px !important;
+    position: relative;
+    height: 516px !important;
+}
+
+.sl_image :first-child {
+    position: absolute;
+    bottom: 52%;
+    width: 394px;
+    right: 30px;   
+    z-index: 100;
+    color: #fff;
+    font-family: Ubuntu-Lightitalic;
+    line-height: 22px;
+    letter-spacing: .3px;
+}
+
+.sl_image :last-child {
+    position: absolute;
+    bottom: 34%;
+    width: 153px;
+    right: 30px;   
+    text-align: right;
+    z-index: 100;
+    color: #f4cf8b;
+    font-family: Ubuntu-Regular;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+
+.wrapper__slideFo {
+    max-width: 930px;
+    margin: auto;
+}
+
+.sectionFour {
+    background-image: url(../img/bg_section2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectionFourtextCenter {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 0;
+}
+
+.sectionFourtextCenter p {
+    font-family: AireRomanPro;
+    font-size: 5em;
+    width: 370px;
+    line-height: 75px;
+    color: #fff;
+    letter-spacing: 25px;
+    opacity: .8;
+}
+
+.activeBorderFour:before {
+    content: 'Парите с нами';
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu-Medium';
+    position: absolute;
+    color: #fff;
+    top: 55px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.sectionFive {
+    padding: 40px;
+    background: #000;
+}
+
+.wrapSecFive {
+    padding: 30px 0;
+    background: #181818;
+}
+
+.wrapper_sectionFive {
+    width: 63%;
+    margin: 0 30px 0;
+    justify-content: space-between;
+}
+
+.activeBorderFive:before {
+    content: 'Уютная атмосфера';
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu-Medium';
+    position: absolute;
+    color: #fff;
+    top: 70px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.textContainerFive p{
+    width: 350px;
+    font-family: AireRomanPro;
+    font-size: 5.2em;
+    line-height: 90px;
+    color: #f4cf8b;
+    letter-spacing: 20px;
+}
+
+.wrapper__ItemsIMG {
+    position: relative;
+    top: -30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    width: 1105px;
+}
+
+.wrap_bg {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemOneBG {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.itemOneBG img:last-child {
+    position: absolute;
+    right: -202px;
+    top: 60px;
+    bottom: 0;
+}
+
+.itemTwoBG {
+    z-index: 1;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: flex-start;
+}
+
+.activeBorderSix:before {
+    content: 'Vip линейка';
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu-Medium';
+    position: absolute;
+    color: #000;
+    top: 90px;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.activeBorderSix {background: #000;}
+
+.wrapper__slideradius {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.itemsRadius {
+    border: 80px solid #fb4e4e;
+    border-radius: 50%;
+    width: 90px;
+    position: relative;
+    height: 90px;
+}
+
+.itemsRadius img {
+    position: absolute;
+    top: -50px;
+    left: -45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'AireRomanPro';
+    src: url("../fonts/AIRE_ROMAN_PRO.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url("../fonts/Ubuntu-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bolditalic';
+    src: url("../fonts/Ubuntu-Bolditalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Italic';
+    src: url("../fonts/Ubuntu-Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url("../fonts/Ubuntu-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Lightitalic';
+    src: url("../fonts/Ubuntu-Lightitalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url("../fonts/Ubuntu-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Mediumitalic';
+    src: url("../fonts/Ubuntu-Mediumitalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url("../fonts/Ubuntu-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
