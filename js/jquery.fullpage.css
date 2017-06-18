@@ -221,6 +221,10 @@ a.active span:before {
     .slick-prev, .slick-next {
         height: 76px !important;
     }
+    #fp-nav {
+        top: 22%;
+        right: 7%;
+    }
 }
 
 

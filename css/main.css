@@ -17,12 +17,12 @@
     display: -o-flex;
     display: flex;
     justify-content: flex-start;
-    width: 95%;
+    width: 95.5%;
     margin: 30px auto 0;
 }
 
 .wrapper_sectionTwo {
-    width: 95%;
+    width: 95.5%;
 }
 
 .menu, .menuTwo, .menuThree {
@@ -50,7 +50,7 @@
 .wrapBorderAlls {
     border: 4px solid #fff;
     height: 91%;
-    width: 94%;
+    width: 94.5%;
     margin: 40px auto;
 }
 
@@ -128,14 +128,14 @@ a:hover hr{
 }
 .hederCaption :nth-child(3):before {
     content: 'vaperoom';
-    top: 40px;
+    top: 30px;
     left: 20px;
     opacity: 1 !important;
     color: #f4cf8b;
     right: 0;
     bottom: 0;
-    letter-spacing: 60px;
-    font-size: .7em;
+    letter-spacing: 65px;
+    font-size: .67em;
     opacity: .9;
     line-height: 100px;
     position: absolute;
@@ -241,7 +241,7 @@ a:hover hr{
 
 .wrap_all {
     margin: 40px;
-    height: 90.5%;
+    height: 91%;
     background: #fff;
 }
 
@@ -387,7 +387,7 @@ a:hover hr{
 .wrapSecFive {
     padding: 30px 0;
     margin: 40px;
-    height: 90.5%;
+    height: 91%;
     background: #181818;
 }
 
@@ -454,6 +454,10 @@ a:hover hr{
     right: -202px;
     top: 60px;
     bottom: 0;
+}
+
+.header_sectionTime {
+    margin: 0 41px !important;padding: 20px 0;
 }
 
 .itemTwoBG {
@@ -550,7 +554,7 @@ a:hover hr{
     top: -90px;
     right: -65px;
     width: 193px !important;
-    height: 267px !important;
+    height: 257px !important;
 }
 
 .owl-car {
@@ -573,7 +577,7 @@ a:hover hr{
     margin: 40px 40px;
     padding-top: 30px;
     justify-content: space-between;
-    width: 60%;
+    width: 62.5%;
 }
 
 .sectionSeven {
@@ -617,7 +621,7 @@ a:hover hr{
 .wrapSectionSeven {
     background: #fff;
     margin: 40px;
-    height: 90%;
+    height: 91%;
 }
 
 .mainMap img {
@@ -678,11 +682,36 @@ a:hover hr{
 @media only screen  and (max-width: 1450px) {
     .textContainerFive p, .sectionFourtextCenter p {
         line-height: 70px;
-        font-size: 4.4em;
+        font-size: 4.2em;
     }
     .hederCaption :nth-child(3):before {
         left: 41px;
         line-height: 67px;
+        right: 25px;
+        letter-spacing: 59px;
+        top: 40px;
+    }
+    .wrapper__slideradius {
+        width: 53.5%;
+    }
+    .wrapper_sectionFive {
+        margin: 14px 48px 0;
+    }
+    .sectionOne {
+        background-position: 0 0;
+    }
+    .wrapBorderAlls {
+        height: 93%;
+        margin: 28px auto;
+    }
+    .wrapper__header, .wrapper_sectionTwo  {
+        width: 91.5%;
+        margin: 50px auto 0;
+    }
+    .hederCaption :first-child:before {
+        left: 20px;
+        top: 23px;
+        letter-spacing: 58px;
     }
     .wrapper__slideFo {    
         max-width: 680px;
@@ -692,7 +721,9 @@ a:hover hr{
         height: 89.5%;    
     }
     .header_sectionSeven {
-        width: 64%;    
+        width: 64%;  
+        margin: 40px 43px;
+        padding-top: 43px;
     }
     .sl_image :first-child {
         font-size: .86em;
@@ -727,11 +758,22 @@ a:hover hr{
         margin: 60px auto 80px;
     }
     .time {
-        font-size: 4.4em;
+        font-size: 4.2em;
+        line-height: 70px;
+    }
+    .header_sectionTime {
+        margin: 14px 48px !important;
     }
     .itemOneBG img:first-child{
         width: 160px;
         height: 160px;
+    }
+    .wrapSectionSeven {
+        height: 90%;
+    }
+    .wrapSectionFour {
+        height: 92%;
+        margin: 30px auto;
     }
     .itemOneBG img:nth-child(2){
         width: 160px;
