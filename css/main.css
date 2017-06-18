@@ -81,19 +81,19 @@ a:hover hr{
 
 .hederCaption :first-child {
     font-family: 'AireRomanPro';
-    font-size: 7.5em;
-    color: #f4cf8b;
-    opacity: .7;
+    font-size: 8.5em;
+    color: #000;
+    opacity: .6;
     letter-spacing: 45px;
     position: relative;
 }.hederCaption :first-child:before {
     content: '6040';
-    color: #000;
-    top: -30px;
+    color: #f4cf8b;
+    top: 40px;
     right: 0;
-    left: -20px;
-    letter-spacing: 30px;
-    font-size: 1.3em;
+    left: 20px;
+    letter-spacing: 65px;
+    font-size: .7em;
     position: absolute;
 }
 
@@ -112,7 +112,7 @@ a:hover hr{
     letter-spacing: 40px;
     position: relative;
     line-height: 140px;
-    opacity: .7;
+    opacity: .6;
 }
 .hederCaption :nth-child(3):before {
     content: 'vaperoom';
@@ -244,7 +244,7 @@ a:hover hr{
     transform: translateX(-50%);
 }
 
-.header_sectionThree {margin: 10px 48px;width: 64%;justify-content: space-between;}
+.header_sectionThree {margin: 20px 48px;width: 64%;justify-content: space-between;}
 
 .activeBorderThree:before {
     content: 'Команда';
@@ -355,7 +355,7 @@ a:hover hr{
 .wrapSecFive {
     padding: 30px 0;
     margin: 40px;
-    height: 90%;
+    height: 91.5%;
     background: #181818;
 }
 
@@ -482,7 +482,7 @@ a:hover hr{
     margin: 40px;
     padding-top: 20px;
     justify-content: space-between;
-    width: 64%;
+    width: 62%;
 }
 
 .sectionSeven {
@@ -574,12 +574,108 @@ a:hover hr{
     .itemTwoBG img:last-child {
         width: 700px;
     }
+    .wrapSecFive {
+        height: 86%;
+    }
+    .header_sectionSeven {
+        width: 61%;
+    }
+
 }
 
 
+@media only screen  and (max-width: 1450px) {
+    .textContainerFive p, .sectionFourtextCenter p {
+        line-height: 70px;
+        font-size: 4.4em;
+    }
+    .hederCaption :nth-child(3):before {
+        left: 41px;
+        line-height: 67px;
+    }
+    .wrapper__slideFo {    
+        max-width: 680px;
+        margin: 5% auto 0;
+    }
+    .wrapSecFive {
+        height: 89.5%;    
+    }
+    .header_sectionSeven {
+        width: 64%;    
+    }
+    .sl_image :first-child {
+        font-size: .86em;
+        width: 52%;
+        line-height: 20px;
+    }
+    .borderItemLeft p, .borderItemRight p {
+        font-size: .9em;
+    }
+    .wrapper__ItemsIMG {
+        width: 82%;
+    }
+    .hederCaption :first-child {
+        font-size: 5em;    
+    }
+    .hederCaption :nth-child(3) {
+        font-size: 7em;
+    }
+    .logo img {
+        max-width: 160px;
+        max-height: 48px;
+    }
+    .wrapper_blockItemOne {
+        width: 450px;
+    }
+    .blockItem {
+        height: 8em;
+        width: 8em;
+    }
+    .beetwen-textSectionTwo {
+        font-size: 4em;
+        margin: 60px auto 80px;
+    }
+    .time {
+        font-size: 4.4em;
+    }
+    .itemOneBG img:first-child{
+        width: 160px;
+        height: 160px;
+    }
+    .itemOneBG img:nth-child(2){
+        width: 160px;
+        height: 160px;
+    }
+    .itemOneBG img:nth-child(3){
+        width: 450px;
+        right: -160px;
+    }
+    .itemTwoBG img:first-child {
+        width: 160px;
+    }
+    .itemTwoBG img:last-child {
+        width: 450px;
+    }
+    .mainMap img {
+        width: 320px;
+    }
+    .borderItemLeft, .borderItemRight {
+        width: 160px;
+        height: 160px;
+        letter-spacing: 0;
+    }
+    .contact_t {
+        font-size: 4em;
+    }
+    .sl_image {
+    background-size: cover;
+    max-width: 680px !important;
+    height: 400px !important;}
+}
 
-
-
+.mainMap img {
+    box-shadow: 0 0 80px rgba(0,0,0,0.29);
+}
 
 
 

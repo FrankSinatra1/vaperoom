@@ -161,7 +161,6 @@ html.fp-enabled,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span{
-    height: 3px;
     background: #fff;
     width: 150px;
  }
@@ -191,11 +190,41 @@ a.active span:before {
     top: 50%;
     right: 0;
     margin: -2px 0 0 -2px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
+
+
+
+@media only screen  and (max-width: 1450px) {
+    #fp-nav ul li,
+    .fp-slidesNav ul li {
+        height: 10px;
+    }
+    #fp-nav ul li a span,
+    .fp-slidesNav ul li a span {
+        width: 50px;
+    }
+    #fp-nav ul li a.active span,
+    .fp-slidesNav ul li a.active span,
+    #fp-nav ul li:hover a.active span,
+    .fp-slidesNav ul li:hover a.active span{
+        background: #fff;
+        width: 120px;
+     }
+    #fp-nav ul li:hover a span,
+    .fp-slidesNav ul li:hover a span{
+        width: 120px !important;
+    }
+    .slick-prev, .slick-next {
+        height: 76px !important;
+    }
+}
+
+
+
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
     width: 150px;
