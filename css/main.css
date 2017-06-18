@@ -6,6 +6,7 @@
 .sectionOne {
     background-image: url(../img/main.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -16,8 +17,12 @@
     display: -o-flex;
     display: flex;
     justify-content: flex-start;
-    width: 89%;
-    margin: 70px auto 0;
+    width: 95%;
+    margin: 30px auto 0;
+}
+
+.wrapper_sectionTwo {
+    width: 95%;
 }
 
 .menu, .menuTwo, .menuThree {
@@ -40,6 +45,13 @@
 
 .activeBorderThree {
     background: #000;
+}
+
+.wrapBorderAlls {
+    border: 4px solid #fff;
+    height: 91%;
+    width: 94%;
+    margin: 40px auto;
 }
 
 .activeBorder:before {
@@ -132,6 +144,7 @@ a:hover hr{
 .sectionTwo {
     background-image: url(../img/bg_section2.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -228,7 +241,7 @@ a:hover hr{
 
 .wrap_all {
     margin: 40px;
-    height: 90%;
+    height: 90.5%;
     background: #fff;
 }
 
@@ -244,7 +257,7 @@ a:hover hr{
     transform: translateX(-50%);
 }
 
-.header_sectionThree {margin: 20px 48px;width: 64%;justify-content: space-between;}
+.header_sectionThree {margin: 20px 41px;width: 64%;justify-content: space-between;}
 
 .activeBorderThree:before {
     content: 'Команда';
@@ -307,10 +320,18 @@ a:hover hr{
     margin: 2% auto 0;
 }
 
+.wrapSectionFour {
+    border: 5px solid #fff;
+    height: 91%;
+    width: 94.5%;
+    margin: 40px auto;
+}
+
 .sectionFour {
     background-image: url(../img/bg_section2.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sectionFourtextCenter {
@@ -355,13 +376,13 @@ a:hover hr{
 .wrapSecFive {
     padding: 30px 0;
     margin: 40px;
-    height: 91.5%;
+    height: 90.5%;
     background: #181818;
 }
 
 .wrapper_sectionFive {
     width: 63%;
-    margin: 0 47px 0;
+    margin: 0 41px 0;
     justify-content: space-between;
 }
 
@@ -448,28 +469,64 @@ a:hover hr{
 
 .activeBorderSix {background: #000;}
 
+
+
+
+
+
+
 .wrapper__slideradius {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 150px auto 0;
+    height: 30%;
 }
 
 .itemsRadius {
-    border: 80px solid #fb4e4e;
-    border-radius: 50%;
-    width: 90px;
+    transition: .4s;
+    border: 60px solid #f4cf8b;
     position: relative;
-    height: 90px;
+    border-radius: 50%;
+    margin: 10px 0;
+    height: 80px;
+    width: 80px;
+    transform: scale(.8);
+}
+
+.activeCircle a {
+    cursor: pointer;
+}
+
+.center {
+    transition: .5s;
+    transform: scale(1.4) !important;
+}
+
+.center>.itemsRadius {
+    border: 60px solid #fb4e4e;
 }
 
 .itemsRadius img {
     position: absolute;
-    top: -50px;
-    left: -45px;
+    top: -90px;
+    right: -65px;
+    width: 193px !important;
+    height: 267px !important;
 }
+
+.owl-car {
+    width: 100%;
+}
+
+
+
+
+
 
 .contact_t {
     font-family: AireRomanPro;
@@ -479,8 +536,8 @@ a:hover hr{
 }
 
 .header_sectionSeven {
-    margin: 40px;
-    padding-top: 20px;
+    margin: 40px 40px;
+    padding-top: 30px;
     justify-content: space-between;
     width: 62%;
 }
