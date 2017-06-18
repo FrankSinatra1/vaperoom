@@ -257,7 +257,18 @@ a:hover hr{
     transform: translateX(-50%);
 }
 
-.header_sectionThree {margin: 20px 41px;width: 64%;justify-content: space-between;}
+.header_sectionThree {margin: 40px 41px;padding: 40px 0;width: 64%;justify-content: space-between;}
+
+.sectionSix {
+    background: #ededed;
+}
+
+.wrapSectionSix {
+    background: #fff;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+}
 
 .activeBorderThree:before {
     content: 'Команда';
@@ -482,8 +493,9 @@ a:hover hr{
     display: -o-flex;
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 51.5%;
     margin: 150px auto 0;
+    position: relative;
     height: 30%;
 }
 
@@ -504,11 +516,33 @@ a:hover hr{
 
 .center {
     transition: .5s;
-    transform: scale(1.4) !important;
+    transform: scale(1.3) !important;
 }
 
 .center>.itemsRadius {
     border: 60px solid #fb4e4e;
+}
+
+.controls {
+    font-family: Ubuntu-Regular;
+}
+
+#right {
+    width: 300%;
+    position: absolute;
+    top: 60%;
+    left: 106.5%;
+}#right img{
+    margin: 0 20px 0 20px;
+}
+
+#left {
+    position: absolute;
+    right: 100%;
+    top: 60%;
+    width: 25%;
+}#left img {
+    margin: 0 20px 0 20px;
 }
 
 .itemsRadius img {
@@ -539,7 +573,7 @@ a:hover hr{
     margin: 40px 40px;
     padding-top: 30px;
     justify-content: space-between;
-    width: 62%;
+    width: 60%;
 }
 
 .sectionSeven {
