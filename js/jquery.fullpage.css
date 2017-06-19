@@ -229,6 +229,28 @@ a.active span:before {
 .fp-slidesNav ul li:hover a span{
     width: 150px;
 }
+
+#fp-nav ul li:last-child a.active span {
+    background: #000;
+}
+#fp-nav ul li:last-child .fp-tooltip {
+    color: #000 !important;
+}
+
+#fp-nav ul li:nth-child(6) a.active span {
+    background: #000;
+}
+#fp-nav ul li:nth-child(6) .fp-tooltip {
+    color: #000 !important;
+}
+#fp-nav ul li:nth-child(3) a.active span {
+    background: #000;
+}
+#fp-nav ul li:nth-child(3) .fp-tooltip {
+    color: #000 !important;
+}
+
+
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -19px;

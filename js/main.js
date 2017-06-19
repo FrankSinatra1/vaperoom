@@ -2,7 +2,6 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
         navigation: true,
         anchors:['firstPage', 'secondPage','teamPage','vapePaeg','airPage','vipPage','mapPage'],
-        menu: '#menu',
 		lockAnchors: true,
 		navigationPosition: 'right',
 		navigationTooltips: ['Главная', 'Преимущества','Команда','Парите с нами','Уютная атмосфера','Vip линейка','Контакты'],
@@ -25,6 +24,7 @@ $(document).ready(function(){
     center: true,
     margin: 80,
     item: 1,
+    dots: true,
     responsive: {
       0: {
         items: 3,
