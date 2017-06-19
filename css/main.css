@@ -41,12 +41,6 @@
     z-index: 1;
 }
 
-.activeBorder, .activeBorderTwo, .activeBorderThree, .activeBorderFour, .activeBorderFive, .activeBorderSix{background: #fff;padding: 1.5px 0;width: 150px;margin: 8px 0;}
-
-.activeBorderThree {
-    background: #000;
-}
-
 .wrapBorderAlls {
     border: 4px solid #fff;
     height: 91%;
@@ -535,7 +529,7 @@ a:hover hr{
     width: 300%;
     position: absolute;
     top: 60%;
-    left: 106.5%;
+    left: 104.5%;
 }#right img{
     margin: 0 20px 0 20px;
 }

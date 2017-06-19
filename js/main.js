@@ -1,6 +1,13 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
         navigation: true,
+        anchors:['firstPage', 'secondPage','teamPage','vapePaeg','airPage','vipPage','mapPage'],
+        menu: '#menu',
+		lockAnchors: true,
+		navigationPosition: 'right',
+		navigationTooltips: ['Главная', 'Преимущества','Команда','Парите с нами','Уютная атмосфера','Vip линейка','Контакты'],
+		showActiveTooltip: true,
+		slidesNavigation: true
 	});
 });
 

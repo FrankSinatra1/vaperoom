@@ -170,11 +170,7 @@ a.active {
 }
 
 a.active span:before {
-    content: 'Главная';
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translate(-50%);
+    content: '';
     color: #fff;
     font-family: 'Ubuntu-Medium';
 }
@@ -235,27 +231,29 @@ a.active span:before {
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
-    top: -2px;
+    top: -19px;
+    left: 50%;
     color: #fff;
-    font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: Ubuntu-Medium;
     white-space: nowrap;
     max-width: 220px;
-    overflow: hidden;
     display: block;
     opacity: 0;
     width: 0;
     cursor: pointer;
 }
-#fp-nav ul li:hover .fp-tooltip,
+#fp-nav ul li:hover,
 #fp-nav.fp-show-active a.active + .fp-tooltip {
     -webkit-transition: opacity 0.2s ease-in;
     transition: opacity 0.2s ease-in;
     width: auto;
     opacity: 1;
 }
+
 #fp-nav ul li .fp-tooltip.right {
-    right: 20px;
+    right: 0;
+    left: -40px;
+    text-align: center;
 }
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;
