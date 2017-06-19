@@ -199,6 +199,11 @@ a.active span:before {
     .fp-slidesNav ul li {
         height: 10px;
     }
+    #fp-nav ul li:hover, #fp-nav.fp-show-active a.active + .fp-tooltip {
+        top: -17px;
+        font-size: .8em;
+        left: -6px;
+    }
     #fp-nav ul li a span,
     .fp-slidesNav ul li a span {
         width: 50px;
@@ -222,8 +227,6 @@ a.active span:before {
         right: 7%;
     }
 }
-
-
 
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{

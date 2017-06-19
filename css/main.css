@@ -665,6 +665,9 @@ a:hover hr{
         letter-spacing: 25px;
         color: #fff;
     }
+    .wrapper__slideradius {
+        width: 45%;
+    }
     .textContainerFive p {
         font-size: 7em;
         width: 435px;
@@ -714,11 +717,14 @@ a:hover hr{
         top: 40px;
     }
     .wrapper__slideradius {
-        width: 53.5%;
+        width: 62%;
     }
     .wrapper_sectionFive {
         width: 63% !important;
         margin: 14px 48px 0 !important;
+    }
+    .wrap_all {
+        height: 89%;    
     }
     .wrapSectionSix {
         height: 88%;
