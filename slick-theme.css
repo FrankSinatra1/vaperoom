@@ -30,9 +30,13 @@
 .slick-prev {
     position: absolute;
     left: 0;
+    padding-left: 50px;
+    text-align: left;
 }
 
 .slick-next {
+    text-align: right;
+    padding-right: 50px;
     bottom: 0;
     right: 0;
 }

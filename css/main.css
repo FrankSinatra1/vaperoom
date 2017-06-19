@@ -643,7 +643,7 @@ a:hover hr{
 .wrapSectionSeven {
     background: #fff;
     margin: 40px;
-    height: 91%;
+    height: 90%;
 }
 
 .mainMap img {
@@ -717,7 +717,11 @@ a:hover hr{
         width: 53.5%;
     }
     .wrapper_sectionFive {
-        margin: 14px 48px 0;
+        width: 63% !important;
+        margin: 14px 48px 0 !important;
+    }
+    .wrapSectionSix {
+        height: 88%;
     }
     .sectionOne {
         background-position: 0 0;
